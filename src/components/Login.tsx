@@ -1,13 +1,13 @@
-import React from "react";
+import { ReactElement } from "react";
 
-function App() {
+const Login: React.FC = (): ReactElement => {
   return (
-    <div className="App">
+    <div>
       <input placeholder="Username" />
       <input placeholder="Password" />
       <button>Login</button>
     </div>
   );
-}
+};
 
-export default App;
+export default Login;
